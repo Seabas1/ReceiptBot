@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables (contains secrets)
+.env
+
+# Large training data
+data/synthetic/images/
+data/synthetic/lmdb/
+data/real/*
+!data/real/.gitkeep
+
+# Model weights (large binary files)
+model/weights/*
+!model/weights/.gitkeep
+
+# EasyOCR cache
+~/.EasyOCR/
+
+# Output files
+output/*
+!output/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
